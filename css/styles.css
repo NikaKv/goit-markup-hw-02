@@ -1,488 +1,353 @@
-/*body*/
+/*-------------body-------------*>/
+/*--------------------header--------------------*/
+/*--------nav----------*/
 
-/* WebStudio */
-.header-name{
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+.body {
+  font-family: "Roboto";
+  font-style: normal;
+  background: #ffffff;
 }
-/*nav*/
-.nav{
-/* top line bg */
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-color: #FFFFFF
+.header {
 }
-/* Студия */
-.nav-item-1{
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #2196F3;
+.header-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-/* Портфолио */
-.nav-item-2{
-border-radius: null px;
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
+.nav {
 }
-/* Контакты */
-.nav-item-3{
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
+.nav-list {
 }
-.nav-n /*portfolio-contakts*/
-{
-color: #212121;}
-.nav-n-1 /*Studio*/
-{
-color: #2196F3}
-/*ссылки*/
-.nav-link{
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.nav-item-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.nav-mail{
-color: #2196F3;
+.nav-n-1 {
+  color: #2196f3;
 }
-/* +38 096 111 11 11 */
-.nav-link-1{
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.nav-item-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.nav-phone{
-color: #757575;}
-/*main*/
-
-/*section-1*/
-.section-1{
-
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background: #2F303A;
+.nav-n {
+  color: #212121;
 }
-/*section-1-title*/
-.section-1-title{
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-
-/* or 136% */
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
+.nav-item-3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-/*button*/
-.button{
-position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+.nav-list {
 }
-/*section-2*/
-/*title*/
-.section-2-title-1{
-position: absolute;
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
-font-family: 'Roboto';
-font-style: normal;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-/*text*/
-.text-1{
-position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 800px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #757575;
+.nav-mail {
+  color: #2196f3;
 }
-.section-2-title-2{
-  position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+.nav-link-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.text-2{
-  position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 800px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #757575;
-}
-.section-2-title-3{
-  position: absolute;
-width: 270px;
-height: 16px;
-left: 815px;
-top: 774px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-}
-.text-3{
-position: absolute;
-width: 270px;
-height: 75px;
-left: 815px;
-top: 800px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-.section-2-title-4{
-position: absolute;
-width: 270px;
-height: 16px;
-left: 1115px;
-top: 774px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-}
-.text-4{
-position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 800px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #757575;
-}
-/*section-3*/
-.section-3{
-  background-color:#E5E5E5;;
-}
-.section-3-title{
-position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-}
-.section-3-photo-1{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-mix-blend-mode: normal;
-}
-.section-3-photo-2{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-
-background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
-}
-.section-3-photo-3{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
-
-background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
-}
-/*section-4*/
-.section-4{
-position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-background: #F5F4FA;
-}
-/*.photo-1{
-position: absolute;
-width: 270px;
-height: 260px;
-left: 215px;
-top: 1635px;
-background: url(4853.jpg);
-border-radius: 0px;
+.nav-phone {
+  color: #757575;
 }
 
-.photo-2{
-position: absolute;
-width: 270px;
-height: 260px;
-left: 515px;
-top: 1635px;
-background: url(5844.jpg);
-border-radius: 0px;
+/*--------maim-----------*/
+/*SECTION-1*/
+.section {
+}
+.section-1 {
+  background: #2f303a;
+}
+/* Эффективные решения для вашего бизнеса */
+.section-1-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Заказать услугу */
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+}
+.button {
 }
 
-.photo-3{
-position: absolute;
-width: 270px;
-height: 260px;
-left: 815px;
-top: 1635px;
-background: url(16166.jpg);
-border-radius: 0px;
+/*SECTION-2*/
+.section-2 {
+  background: #e5e5e5;
+}
+.section-2-list {
+}
+.section-2-item {
+}
+.section-2-title-1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.text-1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.section-2-title-2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-2-title-3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.text-3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-2-title-4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.text-4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*SECTION-3*/
+.section-3 {
+  background: #e5e5e5;
+}
+/* Чем мы занимаемся */
+.section-3-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-3-list {
+  background: #e5e5e5;
+}
+.section-3-photo-1 {
+}
+.section-3-photo-2 {
+}
+.section-3-photo-3 {
 }
 
-.photo-4{
-position: absolute;
-width: 270px;
-height: 260px;
-left: 1115px;
-top: 1635px;
-background: url(2968.jpg);
-border-radius: 0px;
+/*SECTION-4*/
+/* Наша команда */
+.section-4 {
+  background: #f5f4fa;
 }
-*/
-
-.section-4-photo-1{
-  position: absolute;
-width: 270px;
-height: 368px;
-left: 215px;
-top: 1635px;
-background: #FFFFFF;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.section-4-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-
-.section-4-photo-2{
-  position: absolute;
-width: 270px;
-height: 368px;
-left: 515px;
-top: 1635px;
-background: #FFFFFF;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.section-4-list {
 }
-
-.section-4-photo-3{
-position: absolute;
-width: 270px;
-height: 368px;
-left: 815px;
-top: 1635px;
-background: #FFFFFF;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.section-4-photo-1 {
 }
-
-.section-4-photo-4{
-  position: absolute;
-width: 270px;
-height: 368px;
-left: 1115px;
-top: 1635px;
-background: #FFFFFF;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.photo-1 {
 }
-/*footer*/
-.footer{
-  
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
-background: #2F303A;
+.section-4-after-title1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.name-2{
-  position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #2196F3;
+.section-4-job1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
-.footer-address-item{
-  position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #FFFFFF;
+.section-4-photo-2 {
+}
+.photo-2 {
+}
+.section-4-after-title2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-4-job2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-4-photo-3 {
+}
+.photo-3 {
+}
+.section-4-after-title3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-4-job3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-4-photo-4 {
+}
+.photo-4 {
+}
+.section-4-after-title4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-4-job4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.footer-address-link{
-  position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+/*-------FOOTER---------*/
+.footer {
+  background: #2f303a;
+}
+.name-2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-address {
 }
 
+.footer-address-list {
+}
+.footer-address-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*---PORTFOlIO-PAGE--*/
+.new-header {
+  background: #ffffff;
+}
+.new-header-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.new-nav-item-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.new-nav-n {
+  color: #212121;
+}
+.new-nav-item-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.new-nav-n-1 {
+  color: #2196f3;
+}
+.new-nav-item-3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
