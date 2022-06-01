@@ -409,7 +409,9 @@ color: blue;
   letter-spacing: 0.03em;
   background: #2196F3;
   color: white;
+  border-color: greenyellow;
 }
+
 .btn-1:hover, .btn-1:focus{
   color: blue;
   background-color: yellow;
@@ -422,6 +424,7 @@ color: blue;
   letter-spacing: 0.03em;
   background: #F5F4FA;
   color: black;
+  border-color: transparent;
 }
 .btn-2:hover, .btn-2:focus{
   color: blue;
