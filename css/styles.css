@@ -3,11 +3,10 @@
 /*--------nav----------*/
 
 .body {
-  font-family: "Roboto","Raleway";
+  font-family: "Roboto", "Raleway";
   font-style: normal;
-  background: #ffffff;
-}
-.header {
+  background-color: #ffffff;
+  color: #212121;
 }
 .header-name {
   font-family: "Raleway";
@@ -17,77 +16,87 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
-.header-name:hover, .header-name:focus{
+.studio-appearance {
   color: #212121;
 }
-.nav {
-}
-.nav-list {
-}
-.nav-item-1 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.nav-n-1:hover, .nav-n-1:focus {
-color: tomato;
-}
-.nav-n-1{
-color: blue;
-}
-.nav-item-2 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.nav-n {
+.header-name:hover,
+.header-name:focus {
   color: #212121;
 }
-.nav-n:hover, .nav-n:focus {
-color: blue;
-}
-.nav-item-3 {
+.nav-studio-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.nav-mail:hover, .nav-mail:focus {
-  color: blue;
+
+.nav-portfolio,
+.nav-contacts,
+.nav-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+.nav-portfolio,
+.nav-contacts,
+.nav-studio {
+  color: #212121;
+  text-decoration: none;
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus,
+.nav-studio:hover,
+.nav-studio:focus,
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: #2196f3;
+}
+.nav-contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-mail {
-  color: #2196f3;
-}
-.nav-link-1 {
+
+.nav-link-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.nav-phone {
+.nav-phone,
+.nav-mail {
   color: #757575;
+  text-decoration: none;
 }
-.nav-phone:hover, .nav-phone:focus{
-  color: blue;
+
+.nav-phone:focus,
+.nav-phone:hover,
+.nav-mail:focus,
+.nav-mail:hover {
+  color: #2196f3;
 }
 /*--------maim-----------*/
-/*SECTION-1*/
-.section {
-}
-.section-1 {
+/*SECTION-main*/
+.section-main {
   background: #2f303a;
 }
 /* Эффективные решения для вашего бизнеса */
-.section-1-title {
+.section-main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -104,87 +113,77 @@ color: blue;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background: #2196f3;
-  color: white;
-}
-.btn:hover, .btn:focus {
-  color: purple;
-  background-color: yellow;
-}
-.btn{
+  background-color: #f5f4fa;
+  color: #212121;
   cursor: pointer;
 }
-/*SECTION-2*/
-.section-2 {
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: #2196f3;
+}
+/*section-features*/
+.section-features {
   background: #e5e5e5;
 }
-.section-2-list {
-}
-.section-2-item {
-}
-.section-2-title-1 {
+.section-features-title-1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.text-1 {
-  font-weight: 400;
+.text-attention {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-.section-2-title-2 {
+.section-features-title-2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.text-2 {
-  font-weight: 400;
+.text-timemanagement {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-2-title-3 {
+.section-features-title-3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.text-3 {
-  font-weight: 400;
+.text-planning {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-2-title-4 {
+.section-features-title-4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.text-4 {
-  font-weight: 400;
+.text-technologies {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*SECTION-3*/
-.section-3 {
+/*section What we do*/
+.section-whadwedo {
   background: #e5e5e5;
 }
 /* Чем мы занимаемся */
-.section-3-title {
+.section-whadwedo-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -192,22 +191,15 @@ color: blue;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-3-list {
+.section-whadwedo-list {
   background: #e5e5e5;
 }
-.section-3-photo-1 {
-}
-.section-3-photo-2 {
-}
-.section-3-photo-3 {
-}
-
-/*SECTION-4*/
+/*section-Our-Team*/
 /* Наша команда */
-.section-4 {
+.section-ourteam {
   background: #f5f4fa;
 }
-.section-4-title {
+.section-ourteam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -215,83 +207,57 @@ color: blue;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-4-list {
-}
-.section-4-photo-1 {
-}
-.photo-1 {
-}
-.section-4-after-title1 {
+
+.section-ourteam-after-title-ihor {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-4-job1 {
-  font-weight: 400;
-  font-size: 16px;
+.section-ourteam-job-ihor {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-4-photo-2 {
-}
-.photo-2 {
-}
-.section-4-after-title2 {
+
+.section-ourteam-after-title-olga {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-4-job2 {
-  font-weight: 400;
-  font-size: 16px;
+.section-ourteam-job-olga {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-4-photo-3 {
-}
-.photo-3 {
-}
-.section-4-after-title3 {
+
+.section-ourteam-after-title-nikolai {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-4-job3 {
-  font-weight: 400;
-  font-size: 16px;
+.section-ourteam-job-nikolai {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-4-photo-4 {
-}
-.photo-4 {
-}
-.section-4-after-title4 {
+
+.section-ourteam-after-title-michail {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-4-job4 {
-  font-weight: 400;
-  font-size: 16px;
+.section-ourteam-job-michail {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -302,7 +268,7 @@ color: blue;
 .footer {
   background: #2f303a;
 }
-.name-2 {
+.footer-name {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -310,40 +276,39 @@ color: blue;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
-.footer-address {
-}
-
-.footer-address-list {
+.footer-name-studio {
+  color: white;
+  text-decoration: none;
 }
 .footer-address-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-mail,
+.footer-phone {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.name-2:focus, .name-2:hover{
-  color: blue;
-}
-.footer-mail:hover, .footer-mail:focus{
-  color:tomato
-}
-.footer-phone:focus, .footer-phone:hover{
-  color: tomato;
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:focus,
+.footer-phone:hover {
+  color: #2196f3;
 }
 
 /*---PORTFOlIO-PAGE--*/
-.new-header {
-  background:;
-}
+
 .new-header-name {
   font-family: "Raleway";
   font-style: normal;
@@ -352,231 +317,315 @@ color: blue;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
-.new-header-name:hover, .new-header-name:focus, .new-header-name:active{
-  color: blue;
-}
-.new-nav-item-1 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.new-nav-n {
+.new-header-studio {
   color: #212121;
 }
-.new-nav-n:hover, .new-nav-n:focus, .new-nav-n:active{
-  color: blue;
-} 
-.new-nav-item-2 {
+.new-nav-studio,
+.new-nav-portfolio,
+.new-nav-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
-.new-nav-n-1 {
+.new-nav-studio:focus,
+.new-nav-portfolio:focus,
+.new-nav-contacts:focus,
+.new-nav-studio:hover,
+.new-nav-portfolio:hover,
+.new-nav-contacts:hover {
   color: #2196f3;
 }
-.new-nav-n-1:hover, .new-nav-n-1:focus, .new-nav-n-1:active{
-  color: blue;}
 
-.new-nav-item-3 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.new-nav-mail{
+.new-nav-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
-.new-nav-mail:hover, .new-nav-mail:focus{
-  color: violet;
-}
-.nav-phone:focus, .nav-phone:hover{
-  color: violet;
+.new-nav-mail:hover,
+.new-nav-mail:focus {
+  color: #2196f3;
 }
 
 /*-----BUTTONS-----*/
-.btn-1{
+.btns-portfolio {
+  background-color: #f5f4fa;
+  border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #2196F3;
+  color: #212121;
+}
+.btn-portfolio:focus,
+.btn-portfolio:hover {
   color: white;
-  border-color: greenyellow;
+  background-color: #2196f3;
 }
-
-.btn-1:hover, .btn-1:focus{
-  color: blue;
-  background-color: yellow;
+/*-----our projects-----*/
+.section-our-projects {
+  background-color: #e5e5e5;
 }
-.btn-2{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
+.section-our-projects-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.our-projects-technokriak {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
   letter-spacing: 0.03em;
-  background: #F5F4FA;
-  color: black;
-  border-color: transparent;
-}
-.btn-2:hover, .btn-2:focus{
-  color: blue;
-  background-color: yellow;
+  color: #757575;
 }
 
-/*-----PHOTO-----*/
-.p-1{
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-}
-
-.p-2{
+.section-our-projects-2 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 262px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.our-projects-new-orlean {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.p-3{
+.section-our-projects-3 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
   top: 262px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
-.p-4{
+.our-projects-seafood {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-4 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 696px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-
-.p-5{
+.our-projects-prime {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-5 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 696px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-
-.p-6{
+.our-projects-boxes {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-6 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
   top: 696px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-
-.p-7{
+.our-projects-inspiration {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-7 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 1130px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-
-.p-8{
+.our-projects-limited {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-8 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 1130px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-
-.p-9{
+.our-projects-lab {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-our-projects-9 {
   box-sizing: border-box;
   position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
   top: 1130px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
-
+.our-projects-business {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /*----FOOTER----*/
-.new-footer{
+.new-footer {
   position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 1628px;
-  background: #2F303A;
+  background: #2f303a;
+}
+.new-footer-name {
+  color: #2196f3;
+  text-decoration: none;
+}
+.new-footer-studio {
+  color: white;
 }
 
-.new-footer-address-item{
-  font-weight: 400;
+.new-footer-address-item {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
-.new-name-2{
-  font-family: 'Raleway';
+.new-name-2 {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-color: #2196F3;
+  color: #2196f3;
 }
-.new-name-2:hover, .new-name-2:focus{
+.new-name-2:hover,
+.new-name-2:focus {
   color: blue;
 }
-
-
-
-
-
-.new-footer-address-link-1{
-  color: rgba(255, 255, 255, 0.6)}
-
-.new-footer-address-link-1:focus, .new-footer-address-link-1:hover{
-  color: purple;
+.new-footer-address-link-1 {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
-.new-footer-address-link-2{
-  color: rgba(255, 255, 255, 0.6)}
-
-.new-footer-address-link-2:hover, .new-footer-address-link-1:focus{
-  color: purple;
+.new-footer-address-link-1:focus,
+.new-footer-address-link-1:hover {
+  color: #2196f3;
+}
+.new-footer-address-link-2 {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.new-footer-address-link-2:hover,
+.new-footer-address-link-1:focus {
+  color: #2196f3;
 }
