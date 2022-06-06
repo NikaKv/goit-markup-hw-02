@@ -3,7 +3,7 @@
 /*--------nav----------*/
 
 .body {
-  font-family: "Roboto", "Raleway";
+  font-family: "Roboto";
   font-style: normal;
   background-color: #ffffff;
   color: #212121;
@@ -23,7 +23,8 @@
 }
 .header-name:hover,
 .header-name:focus {
-  color: #212121;
+  text-decoration: underline #2196f3;
+  color: #2196f3;
 }
 .nav-studio-item {
   font-weight: 500;
@@ -31,11 +32,15 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #2196f3;
 }
-
+.nav-studio {
+  color: #2196f3;
+}
 .nav-portfolio,
 .nav-contacts,
 .nav-studio {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,19 +48,21 @@
   text-decoration: none;
 }
 .nav-portfolio,
-.nav-contacts,
-.nav-studio {
+.nav-contacts {
   color: #212121;
   text-decoration: none;
 }
 .nav-portfolio:hover,
-.nav-portfolio:focus,
 .nav-studio:hover,
+.nav-contacts:hover {
+  text-decoration: underline #2196f3;
+}
+.nav-portfolio:focus,
 .nav-studio:focus,
-.nav-contacts:hover,
 .nav-contacts:focus {
   color: #2196f3;
 }
+
 .nav-contacts-item {
   font-weight: 500;
   font-size: 14px;
@@ -104,6 +111,10 @@
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.section-main-title:focus,
+.section-main-title:hover {
+  text-decoration: underline #2196f3;
+}
 /* Заказать услугу */
 .btn {
   font-weight: 700;
@@ -113,19 +124,36 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #f5f4fa;
-  color: #212121;
   cursor: pointer;
-}
-.btn:hover,
-.btn:focus {
   color: white;
   background-color: #2196f3;
 }
-/*section-features*/
-.section-features {
-  background: #e5e5e5;
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  text-decoration: underline #2196f3;
 }
+/*section-features*/
+
+.section-features-title-1:focus,
+.text-attention:focus,
+.section-features-title-2:focus,
+.text-timemanagement:focus,
+.section-features-title-3:focus,
+.text-planning:focus,
+.section-features-title-4:focus,
+.text-technologies:focus,
+.section-features-title-1:hover,
+.text-attention:hover,
+.section-features-title-2:hover,
+.text-timemanagement:hover,
+.section-features-title-3:hover,
+.text-planning:hover,
+.section-features-title-4:hover,
+.text-technologies:hover {
+  text-decoration: underline #2196f3;
+}
+
 .section-features-title-1 {
   font-weight: 700;
   font-size: 14px;
@@ -179,10 +207,13 @@
   color: #757575;
 }
 /*section What we do*/
-.section-whadwedo {
-  background: #e5e5e5;
-}
+
 /* Чем мы занимаемся */
+
+.section-whadwedo-title:hover,
+.section-whadwedo-title:focus {
+  text-decoration: underline #2196f3;
+}
 .section-whadwedo-title {
   font-weight: 700;
   font-size: 36px;
@@ -191,14 +222,15 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-whadwedo-list {
-  background: #e5e5e5;
-}
+
 /*section-Our-Team*/
 /* Наша команда */
-.section-ourteam {
-  background: #f5f4fa;
+
+.section-ourteam-title:hover,
+.section-ourteam-title:focus {
+  text-decoration: underline #2196f3;
 }
+
 .section-ourteam-title {
   font-weight: 700;
   font-size: 36px;
@@ -207,6 +239,19 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+/*.section-whadwedo-photo-1:hover,
+.section-whadwedo-photo-2:hover,
+.section-whadwedo-photo-3:hover,
+.section-whadwedo-photo-1:focus
+.section-whadwedo-photo-2:focus
+.section-whadwedo-photo-3:focus{
+  color:  underline #2196f3
+}
+
+.section-whadwedo-list:hover,
+.section-whadwedo-list:focus{
+  text-decoration: #2196f3
+}*/
 
 .section-ourteam-after-title-ihor {
   font-weight: 500;
@@ -215,11 +260,20 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-ourteam-after-title-ihor:hover,
+.section-ourteam-after-title-ihor:focus {
+  text-decoration: underline #2196f3;
+}
+
 .section-ourteam-job-ihor {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.section-ourteam-job-ihor:hover,
+.section-ourteam-job-ihor:focus {
+  text-decoration: underline #2196f3;
 }
 
 .section-ourteam-after-title-olga {
@@ -229,11 +283,20 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-ourteam-after-title-olga:hover,
+.section-ourteam-after-title-olga:focus {
+  text-decoration: underline #2196f3;
+}
+
 .section-ourteam-job-olga {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.section-ourteam-job-olga:hover,
+.section-ourteam-job-olga:focus {
+  text-decoration: underline #2196f3;
 }
 
 .section-ourteam-after-title-nikolai {
@@ -243,11 +306,20 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-ourteam-after-title-nikolai:hover,
+.section-ourteam-after-title-nikolai:focus {
+  text-decoration: underline #2196f3;
+}
+
 .section-ourteam-job-nikolai {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.section-ourteam-job-nikolai:hover,
+.section-ourteam-job-nikolai:focus {
+  text-decoration: underline #2196f3;
 }
 
 .section-ourteam-after-title-michail {
@@ -257,11 +329,20 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-ourteam-after-title-michail:hover,
+.section-ourteam-after-title-michail:focus {
+  text-decoration: underline #2196f3;
+}
+
 .section-ourteam-job-michail {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.section-ourteam-job-michail:hover,
+.section-ourteam-job-michail:focus {
+  text-decoration: underline #2196f3;
 }
 
 /*-------FOOTER---------*/
@@ -282,29 +363,52 @@
   color: white;
   text-decoration: none;
 }
+
+.footer-name:hover,
+.footer-name:focus {
+  text-decoration: underline #2196f3;
+  color: #2196f3;
+}
 .footer-address-item {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
 }
+.footer-address-item:hover,
+.footer-address-item:focus {
+  text-decoration: #2196f3;
+}
+
 .footer-address-link {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.footer-address-link:hover .footer-address-link:focus {
+  text-decoration: underline #2196f3;
+}
+
 .footer-mail,
 .footer-phone {
+  font-family: "Roboto";
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-phone:focus,
 .footer-phone:hover {
   color: #2196f3;
+  text-decoration: underline #2196f3;
 }
 
 /*---PORTFOlIO-PAGE--*/
@@ -319,6 +423,12 @@
   color: #2196f3;
   text-decoration: none;
 }
+
+.new-header-name:hover,
+.new-header-name:focus {
+  text-decoration: underline #2196f3;
+}
+
 .new-header-studio {
   color: #212121;
 }
@@ -339,6 +449,7 @@
 .new-nav-portfolio:hover,
 .new-nav-contacts:hover {
   color: #2196f3;
+  text-decoration: underline #2196f3;
 }
 
 .new-nav-mail {
@@ -350,8 +461,11 @@
   text-decoration: none;
 }
 .new-nav-mail:hover,
-.new-nav-mail:focus {
+.new-nav-mail:focus,
+.nav-phone:hover,
+.nav-phone:focus {
   color: #2196f3;
+  text-decoration: underline #2196f3;
 }
 
 /*-----BUTTONS-----*/
@@ -364,6 +478,11 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+.btn-portfolio-1 {
+  background-color: #2196f3;
+  color: white;
+}
 .btn-portfolio:focus,
 .btn-portfolio:hover {
   color: white;
@@ -372,6 +491,11 @@
 /*-----our projects-----*/
 .section-our-projects {
   background-color: #e5e5e5;
+}
+
+.description:hover,
+.description:focus {
+  text-decoration: underline #2196f3;
 }
 .section-our-projects-1 {
   box-sizing: border-box;
@@ -389,6 +513,11 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+.our-projects-technokriak:hover,
+.our-projects-technokriak:focus {
+  text-decoration: underline #2196f3;
 }
 .description {
   line-height: 30px;
@@ -412,6 +541,10 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+.our-projects-new-orlean:hover,
+.our-projects-new-orlean:focus {
+  text-decoration: underline #2196f3;
 }
 .description {
   line-height: 30px;
@@ -437,6 +570,10 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
+.our-projects-seafood:hover,
+.our-projects-seafood:focus {
+  text-decoration: underline #2196f3;
+}
 .description {
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -458,6 +595,10 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+.our-projects-prime:hover,
+.our-projects-prime:focus {
+  text-decoration: underline #2196f3;
 }
 .description {
   line-height: 30px;
@@ -481,6 +622,10 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
+.our-projects-boxes:hover,
+.our-projects-boxes:focus {
+  text-decoration: underline #2196f3;
+}
 .description {
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -501,6 +646,10 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+.our-projects-inspiration:hover,
+.our-projects-inspiration:focus {
+  text-decoration: underline #2196f3;
 }
 .description {
   line-height: 30px;
@@ -524,6 +673,10 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
+.our-projects-limited:hover,
+.our-projects-limited:focus {
+  text-decoration: underline #2196f3;
+}
 .description {
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -545,6 +698,10 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+}
+.our-projects-lab:hover,
+.our-projects-lab:focus {
+  text-decoration: underline #2196f3;
 }
 .description {
   line-height: 30px;
@@ -568,6 +725,10 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
+.our-projects-business:hover,
+.our-projects-business:focus {
+  text-decoration: underline #2196f3;
+}
 .description {
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -582,10 +743,18 @@
   left: 0px;
   top: 1628px;
   background: #2f303a;
+  text-decoration: none;
 }
 .new-footer-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
   color: #2196f3;
   text-decoration: none;
+}
+.new-footer-name:hover,
+.new-footer-name:focus {
+  text-decoration: underline #2196f3;
 }
 .new-footer-studio {
   color: white;
@@ -598,6 +767,12 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.new-footer-address-item:hover,
+.new-footer-address-item:focus {
+  text-decoration: underline #2196f3;
+}
+
 .new-name-2 {
   font-family: "Raleway";
   font-style: normal;
@@ -605,8 +780,8 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: #2196f3;
+  text-decoration: none;
 }
 .new-name-2:hover,
 .new-name-2:focus {
@@ -620,12 +795,21 @@
 .new-footer-address-link-1:focus,
 .new-footer-address-link-1:hover {
   color: #2196f3;
+  text-decoration: underline #2196f3;
 }
 .new-footer-address-link-2 {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 .new-footer-address-link-2:hover,
-.new-footer-address-link-1:focus {
+.new-footer-address-link-2:focus {
   color: #2196f3;
+  text-decoration: underline #2196f3;
+}
+.new-footer-address-link,
+.new-footer-address-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
 }
