@@ -435,6 +435,7 @@
 .new-nav-studio,
 .new-nav-portfolio,
 .new-nav-contacts {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -452,7 +453,9 @@
   text-decoration: underline #2196f3;
 }
 
-.new-nav-mail {
+.new-nav-mail,
+.nav-phone {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -471,22 +474,27 @@
 /*-----BUTTONS-----*/
 .btns-portfolio {
   background-color: #f5f4fa;
+  font-family: "Roboto";
   border-radius: 4px;
   font-weight: 500;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
 
 .btn-portfolio-1 {
   background-color: #2196f3;
+  font-family: "Roboto";
   color: white;
+  cursor: pointer;
 }
 .btn-portfolio:focus,
 .btn-portfolio:hover {
   color: white;
   background-color: #2196f3;
+  cursor: pointer;
 }
 /*-----our projects-----*/
 .section-our-projects {
@@ -508,6 +516,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-technokriak {
+  font-size: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -520,6 +529,8 @@
   text-decoration: underline #2196f3;
 }
 .description {
+  font-size: "Roboto";
+  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -536,6 +547,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-new-orlean {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -564,6 +576,7 @@
 }
 
 .our-projects-seafood {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -590,6 +603,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-prime {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -616,6 +630,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-boxes {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -641,6 +656,7 @@
   background: #ffffff;
 }
 .our-projects-inspiration {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -667,6 +683,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-limited {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -693,6 +710,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-lab {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -719,6 +737,7 @@
   border: 1px solid #eeeeee;
 }
 .our-projects-business {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -730,6 +749,8 @@
   text-decoration: underline #2196f3;
 }
 .description {
+  font-family: "Roboto";
+  font-size: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -751,6 +772,9 @@
   font-weight: 700;
   color: #2196f3;
   text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .new-footer-name:hover,
 .new-footer-name:focus {
@@ -764,8 +788,8 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
   text-decoration: none;
+  color: white;
 }
 
 .new-footer-address-item:hover,
