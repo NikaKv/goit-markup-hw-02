@@ -2,15 +2,22 @@
 /*--------------------header--------------------*/
 /*--------nav----------*/
 
-.body {
-  font-family: "Roboto";
+.page,
+.page-1 {
+  font-family: "Roboto", "Raleway";
   font-style: normal;
   background-color: #ffffff;
   color: #212121;
+  text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .header-name {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -23,15 +30,24 @@
 }
 .header-name:hover,
 .header-name:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
   color: #2196f3;
 }
+
 .nav-studio-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #2196f3;
+}
+.nav-studio:hover,
+.nav-studio:focus,
+.nav-portfolio:hover,
+.nav-portfolio:focus,
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: #2196f3;
 }
 .nav-studio {
@@ -55,7 +71,7 @@
 .nav-portfolio:hover,
 .nav-studio:hover,
 .nav-contacts:hover {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .nav-portfolio:focus,
 .nav-studio:focus,
@@ -76,6 +92,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .nav-link-phone {
@@ -84,6 +101,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  list-style-type: none;
 }
 .nav-phone,
 .nav-mail {
@@ -113,7 +131,7 @@
 }
 .section-main-title:focus,
 .section-main-title:hover {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 /* Заказать услугу */
 .btn {
@@ -131,7 +149,7 @@
 .btn:hover,
 .btn:focus {
   background-color: #2196f3;
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 /*section-features*/
 
@@ -151,7 +169,7 @@
 .text-planning:hover,
 .section-features-title-4:hover,
 .text-technologies:hover {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-features-title-1 {
@@ -206,13 +224,16 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*section What we do*/
+/*section What we do
+
 
 /* Чем мы занимаемся */
-
+.section-ourteam-list {
+  background-color: #f5f4fa;
+}
 .section-whadwedo-title:hover,
 .section-whadwedo-title:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .section-whadwedo-title {
   font-weight: 700;
@@ -228,7 +249,7 @@
 
 .section-ourteam-title:hover,
 .section-ourteam-title:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-title {
@@ -239,19 +260,6 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-/*.section-whadwedo-photo-1:hover,
-.section-whadwedo-photo-2:hover,
-.section-whadwedo-photo-3:hover,
-.section-whadwedo-photo-1:focus
-.section-whadwedo-photo-2:focus
-.section-whadwedo-photo-3:focus{
-  color:  underline #2196f3
-}
-
-.section-whadwedo-list:hover,
-.section-whadwedo-list:focus{
-  text-decoration: #2196f3
-}*/
 
 .section-ourteam-after-title-ihor {
   font-weight: 500;
@@ -262,7 +270,7 @@
 }
 .section-ourteam-after-title-ihor:hover,
 .section-ourteam-after-title-ihor:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-job-ihor {
@@ -273,7 +281,7 @@
 }
 .section-ourteam-job-ihor:hover,
 .section-ourteam-job-ihor:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-after-title-olga {
@@ -285,7 +293,7 @@
 }
 .section-ourteam-after-title-olga:hover,
 .section-ourteam-after-title-olga:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-job-olga {
@@ -296,7 +304,7 @@
 }
 .section-ourteam-job-olga:hover,
 .section-ourteam-job-olga:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-after-title-nikolai {
@@ -308,7 +316,7 @@
 }
 .section-ourteam-after-title-nikolai:hover,
 .section-ourteam-after-title-nikolai:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-job-nikolai {
@@ -319,7 +327,7 @@
 }
 .section-ourteam-job-nikolai:hover,
 .section-ourteam-job-nikolai:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-after-title-michail {
@@ -331,7 +339,7 @@
 }
 .section-ourteam-after-title-michail:hover,
 .section-ourteam-after-title-michail:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .section-ourteam-job-michail {
@@ -342,22 +350,29 @@
 }
 .section-ourteam-job-michail:hover,
 .section-ourteam-job-michail:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 /*-------FOOTER---------*/
 .footer {
   background: #2f303a;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-address-item {
+  text-decoration: none;
+  font-style: normal;
 }
 .footer-name {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  font-style: normal;
 }
 .footer-name-studio {
   color: white;
@@ -366,12 +381,11 @@
 
 .footer-name:hover,
 .footer-name:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
   color: #2196f3;
 }
 .footer-address-item {
   font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -385,20 +399,20 @@
 
 .footer-address-link {
   font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
 }
 .footer-address-link:hover .footer-address-link:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .footer-mail,
 .footer-phone {
   font-family: "Roboto";
-  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -408,14 +422,12 @@
 .footer-phone:focus,
 .footer-phone:hover {
   color: #2196f3;
-  text-decoration: underline #2196f3;
 }
 
 /*---PORTFOlIO-PAGE--*/
 
 .new-header-name {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -426,14 +438,13 @@
 
 .new-header-name:hover,
 .new-header-name:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .new-header-studio {
   color: #212121;
 }
 .new-nav-studio,
-.new-nav-portfolio,
 .new-nav-contacts {
   font-family: "Roboto";
   font-weight: 500;
@@ -443,6 +454,17 @@
   color: #212121;
   text-decoration: none;
 }
+
+.new-nav-portfolio {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .new-nav-studio:focus,
 .new-nav-portfolio:focus,
 .new-nav-contacts:focus,
@@ -450,7 +472,6 @@
 .new-nav-portfolio:hover,
 .new-nav-contacts:hover {
   color: #2196f3;
-  text-decoration: underline #2196f3;
 }
 
 .new-nav-mail,
@@ -468,7 +489,6 @@
 .nav-phone:hover,
 .nav-phone:focus {
   color: #2196f3;
-  text-decoration: underline #2196f3;
 }
 
 /*-----BUTTONS-----*/
@@ -503,17 +523,14 @@
 
 .description:hover,
 .description:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .section-our-projects-1 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 262px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-technokriak {
   font-size: "Roboto";
@@ -526,7 +543,7 @@
 
 .our-projects-technokriak:hover,
 .our-projects-technokriak:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   font-size: "Roboto";
@@ -537,14 +554,11 @@
 }
 
 .section-our-projects-2 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 262px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-new-orlean {
   font-family: "Roboto";
@@ -556,7 +570,7 @@
 }
 .our-projects-new-orlean:hover,
 .our-projects-new-orlean:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -565,14 +579,11 @@
 }
 
 .section-our-projects-3 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
   top: 262px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 
 .our-projects-seafood {
@@ -585,7 +596,7 @@
 }
 .our-projects-seafood:hover,
 .our-projects-seafood:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -594,7 +605,6 @@
 }
 .section-our-projects-4 {
   box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
@@ -612,7 +622,7 @@
 }
 .our-projects-prime:hover,
 .our-projects-prime:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -620,14 +630,11 @@
   color: #757575;
 }
 .section-our-projects-5 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 696px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-boxes {
   font-family: "Roboto";
@@ -639,7 +646,7 @@
 }
 .our-projects-boxes:hover,
 .our-projects-boxes:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -647,8 +654,6 @@
   color: #757575;
 }
 .section-our-projects-6 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
@@ -665,7 +670,7 @@
 }
 .our-projects-inspiration:hover,
 .our-projects-inspiration:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -673,14 +678,11 @@
   color: #757575;
 }
 .section-our-projects-7 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 1130px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-limited {
   font-family: "Roboto";
@@ -692,7 +694,7 @@
 }
 .our-projects-limited:hover,
 .our-projects-limited:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -700,14 +702,11 @@
   color: #757575;
 }
 .section-our-projects-8 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 615px;
   top: 1130px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-lab {
   font-family: "Roboto";
@@ -719,7 +718,7 @@
 }
 .our-projects-lab:hover,
 .our-projects-lab:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   line-height: 30px;
@@ -727,14 +726,11 @@
   color: #757575;
 }
 .section-our-projects-9 {
-  box-sizing: border-box;
-  position: absolute;
   width: 370px;
   height: 404px;
   left: 1015px;
   top: 1130px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .our-projects-business {
   font-family: "Roboto";
@@ -746,11 +742,10 @@
 }
 .our-projects-business:hover,
 .our-projects-business:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .description {
   font-family: "Roboto";
-  font-size: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -758,7 +753,6 @@
 
 /*----FOOTER----*/
 .new-footer {
-  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -778,7 +772,7 @@
 }
 .new-footer-name:hover,
 .new-footer-name:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 .new-footer-studio {
   color: white;
@@ -794,7 +788,7 @@
 
 .new-footer-address-item:hover,
 .new-footer-address-item:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: #2196f3;
 }
 
 .new-name-2 {
@@ -819,7 +813,6 @@
 .new-footer-address-link-1:focus,
 .new-footer-address-link-1:hover {
   color: #2196f3;
-  text-decoration: underline #2196f3;
 }
 .new-footer-address-link-2 {
   color: rgba(255, 255, 255, 0.6);
@@ -829,11 +822,10 @@
 .new-footer-address-link-2:hover,
 .new-footer-address-link-2:focus {
   color: #2196f3;
-  text-decoration: underline #2196f3;
 }
 .new-footer-address-link,
 .new-footer-address-item {
   font-family: "Roboto";
+  text-decoration: none;
   font-style: normal;
-  font-weight: 400;
 }

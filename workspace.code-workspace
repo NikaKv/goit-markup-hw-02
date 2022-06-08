@@ -1,0 +1,23 @@
+{
+  "folders": [
+	{
+		"name": "fe-57-on",
+		"path": "..\\fe-57-on"
+	},
+	{
+		"name": "goit-markup-hw-01",
+		"path": "..\\goit-markup-hw-01"
+	},
+	{
+		"name": "goit-markup-hw-02",
+		"path": "."
+	},
+	{
+		"name": "ПРОБИ",
+		"path": "..\\ПРОБИ"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-02"
+  }
+}
