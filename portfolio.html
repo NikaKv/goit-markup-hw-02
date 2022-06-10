@@ -4,18 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <title>Фирма-2</title>
+<link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page-1">
     <!---ШАпка-->
     <header class="new-header">
       <a href="/" lang="en" class="new-header-name"
@@ -26,25 +22,21 @@
           <li class="new-nav-item-studio">
             <a href="./index.html" class="new-nav-studio">Студия</a>
           </li>
-          <li class="new-nav-item-portfolio">
-            <a href="Портфолио" class="new-nav-portfolio">Портфолио</a>
+          <li title="new-nav-item-portfolio">
+            <a href="Портфолио" title="new-nav-portfolio">Портфолио</a>
           </li>
           <li class="new-nav-item-contacts">
-            <a href="Контакты" class="new-nav-contacts">Контакты</a>
+            <a href="./" class="new-nav-contacts">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <ul class="new-nav-list">
         <li class="new-nav-link">
-          <a href="mailto:info@devstudio.com" class="new-nav-mail"
-            >info@devstudio.com</a
-          >
+          <a href="mailto:info@devstudio.com" title-2="new-nav-mail">info@devstudio.com</a>
         </li>
         <li class="new-nav-link-1">
-          <a href="tel:+38-096-111-11-11" class="nav-phone"
-            >+38 096 111 11 11</a
-          >
+          <a href="tel:+38-096-111-11-11" title-2="nav-phone">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -53,17 +45,19 @@
       <section>
         <!--Кнопки-->
         <div>
-          <button type="button" class="btn-portfolio-1">Все</button>
-          <button type="button" class="btn-portfolio">Веб-сайты</button>
-          <button type="button" class="btn-portfolio">Приложения</button>
-          <button type="button" class="btn-portfolio">Дизайн</button>
-          <button type="button" class="btn-portfolio">Маркетинг</button>
+          <ul class="btn">
+            <li><button type="button" class="btn-portfolio-1">Все</button></li>
+            <li><button type="button" class="btn-portfolio">Веб-сайты</button></li>
+            <li><button type="button" class="btn-portfolio">Приложения</button></li>
+            <li><button type="button" class="btn-portfolio">Дизайн</button></li>
+            <li><button type="button" class="btn-portfolio">Маркетинг</button></li>
+          </ul>
         </div>
         <!--Our Projects-->
         <ul class="-our-projects-photo">
           <li class="section-our-projects-1">
             <img src="./images/ноут+чуваки.jpg" alt="ноут+чуваки" width="370" />
-            <h2 class="our-projects-technokriak">Технокряк</h2>
+            <h1 class="our-projects-technokriak">Технокряк</h1>
             <p class="description">Веб-сайт</p>
           </li>
 
@@ -74,9 +68,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-new-orlean" lang="en">
+            <h1 class="our-projects-new-orlean" lang="en">
               Постер <span>New Orlean vs Golden Star</span>
-            </h2>
+            </h1>
             <p class="description">Дизайн</p>
           </li>
 
@@ -87,9 +81,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-seafood" lang="en">
+            <h1 class="our-projects-seafood" lang="en">
               Ресторан <span>Seafood</span>
-            </h2>
+            </h1>
             <p class="description">Приложение</p>
           </li>
 
@@ -100,9 +94,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-prime" lang="en">
+            <h1 class="our-projects-prime" lang="en">
               Проект <span>Prime</span>
-            </h2>
+            </h1>
             <p class="description">Маркетинг</p>
           </li>
 
@@ -113,9 +107,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-boxes" lang="en">
+            <h1 class="our-projects-boxes" lang="en">
               Проект <span>Boxes</span>
-            </h2>
+            </h1>
             <p class="description">Приложение</p>
           </li>
 
@@ -126,9 +120,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-inspiration" lang="en">
+            <h1 class="our-projects-inspiration" lang="en">
               Inspiration has no Borders
-            </h2>
+            </h1>
             <p class="description">Веб-сайт</p>
           </li>
 
@@ -139,9 +133,9 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-limited" lang="en">
+            <h1 class="our-projects-limited" lang="en">
               Издание <span>Limited Edition</span>
-            </h2>
+            </h1>
             <p class="description">Дизайн</p>
           </li>
 
@@ -152,7 +146,7 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-lab" lang="en">Проект <span>LAB</span></h2>
+            <h1 class="our-projects-lab" lang="en">Проект <span>LAB</span></h1>
             <p class="description">Маркетинг</p>
           </li>
 
@@ -163,7 +157,7 @@
               width="370"
               height="294"
             />
-            <h2 class="our-projects-business">Growing Business</h2>
+            <h1 class="our-projects-business">Growing Business</h1>
             <p class="description">Приложение</p>
           </li>
         </ul>
@@ -178,14 +172,14 @@
       <address class="new-footer-address">
         <ul class="new-footer-address-list">
           <li class="new-footer-address-item">
-            г. Киев, пр-т Леси Украинки, 26<br />
+            <!--<a href="https://goo.gl/maps/QcjW3jXqd3vdCQsH7">-->
+            г. Киев, пр-т Леси Украинки, 26<!--</a>--><br/>
           </li>
           <li class="new-footer-address-link">
             <a
               href="mailto:info@devstudio.com"
               class="new-footer-address-link-1"
-              >info@example.com<br
-            /></a>
+              >info@example.com<br/></a>
           </li>
           <li class="new-footer-address-link">
             <a href="tel:+38-096-111-11-11" class="new-footer-address-link-2">
